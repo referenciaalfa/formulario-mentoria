@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Questionário Mentoria IA-First</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f8f8fa; padding: 20px; max-width: 800px; margin: 20px auto; }
+        h2 { color: #1a3367; text-align: center; }
+        .pergunta { margin-bottom: 16px; }
+        label { display: block; font-weight: bold; margin-bottom: 5px; color: #333; }
+        textarea, input[type="text"], input[type="email"], select {
+            width: 100%; padding: 10px; box-sizing: border-box; margin-bottom: 8px; border-radius: 4px; border: 1px solid #ccc;
+        }
+        button { display: block; width: 100%; padding: 12px 24px; background: #324cf4; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; font-weight: bold; }
+        button:hover { background: #1a3367; }
+    </style>
+</head>
+<body>
+    <h2>Questionário Mentoria IA-First</h2>
+    
+    <!-- ATUALIZE A LINHA ABAIXO -->
+    <form action="https://formspree.io/f/xovyarwo" method="POST">
+    
+        <div class="pergunta">
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome" required>
+        </div>
+        <div class="pergunta">
+            <label for="idade">Idade:</label>
+            <input type="text" id="idade" name="idade">
+        </div>
+        <div class="pergunta">
+            <label for="area">Área profissional:</label>
+            <input type="text" id="area" name="area">
+        </div>
+        <div class="pergunta">
+            <label for="experiencia_ia">Já utilizou IA anteriormente? Quais ferramentas/plataformas?</label>
+            <textarea id="experiencia_ia" name="experiencia_ia" rows="4"></textarea>
+        </div>
+        <div class="pergunta">
+            <label for="desafios">Principais desafios no negócio/carreira relacionados à tecnologia ou IA:</label>
+            <textarea id="desafios" name="desafios" rows="4"></textarea>
+        </div>
+        <div class="pergunta">
+            <label for="resultados">Quais resultados espera conquistar com a mentoria?</label>
+            <textarea id="resultados" name="resultados" rows="4"></textarea>
+        </div>
+        <div class="pergunta">
+            <label for="projetos">Projetos concretos que deseja aprimorar/implementar usando IA:</label>
+            <textarea id="projetos" name="projetos" rows="4"></textarea>
+        </div>
+        <div class="pergunta">
+            <label for="vantagem">Vantagem competitiva desejada:</label>
+            <input type="text" id="vantagem" name="vantagem">
+        </div>
+        <div class="pergunta">
+            <label for="nivel_tecnologia">Nível atual de conforto com tecnologia:</label>
+            <select id="nivel_tecnologia" name="nivel_tecnologia">
+                <option value="iniciante">Iniciante</option>
+                <option value="intermediario">Intermediário</option>
+                <option value="avancado">Avançado</option>
+            </select>
+        </div>
+        <div class="pergunta">
+            <label for="programacao">Familiaridade com programação? Quais linguagens?</label>
+            <input type="text" id="programacao" name="programacao">
+        </div>
+        <div class="pergunta">
+            <label for="equipe">Outros profissionais/equipe envolvidos na jornada IA:</label>
+            <textarea id="equipe" name="equipe" rows="3"></textarea>
+        </div>
+        <div class="pergunta">
+            <label for="dedicacao">Horas semanais disponíveis para a mentoria:</label>
+            <input type="text" id="dedicacao" name="dedicacao">
+        </div>
+        <div class="pergunta">
+            <label for="setores">Setores/atividades mais abertos à transformação digital via IA:</label>
+            <textarea id="setores" name="setores" rows="3"></textarea>
+        </div>
+        <div class="pergunta">
+            <label for="tarefas">Tarefas repetitivas/gargalos que gostaria de automatizar:</label>
+            <textarea id="tarefas" name="tarefas" rows="4"></textarea>
+        </div>
+        <div class="pergunta">
+            <label for="insegurancas">Principais inseguranças ou desconhecimento em IA:</label>
+            <textarea id="insegurancas" name="insegurancas" rows="4"></textarea>
+        </div>
+        <div class="pergunta">
+            <label for="restricoes">Restrições orçamentárias, regulatórias ou culturais para implementar IA:</label>
+            <textarea id="restricoes" name="restricoes" rows="3"></textarea>
+        </div>
+        <div class="pergunta">
+            <label for="acompanhamento">Preferência de acompanhamento (online, híbrido, presencial, suporte técnico ):</label>
+            <input type="text" id="acompanhamento" name="acompanhamento">
+        </div>
+        <div class="pergunta">
+            <label for="dados_ia">Dados/informações que já coleta e poderiam ser integrados em IA:</label>
+            <textarea id="dados_ia" name="dados_ia" rows="3"></textarea>
+        </div>
+        <div class="pergunta">
+            <label for="diversificacao">Interesse em explorar IA em outras áreas além da atual?</label>
+            <input type="text" id="diversificacao" name="diversificacao">
+        </div>
+        <div class="pergunta">
+            <label for="comunicacao">Preferência de aprendizado (vídeos, textos, projetos práticos, etc.):</label>
+            <textarea id="comunicacao" name="comunicacao" rows="3"></textarea>
+        </div>
+        <div class="pergunta">
+            <label for="autonomia">Grau de autonomia para tarefas sem supervisão:</label>
+            <input type="text" id="autonomia" name="autonomia">
+        </div>
+        <div class="pergunta">
+            <label for="expectativas">Expectativas sobre relacionamento com mentor e comunidade:</label>
+            <textarea id="expectativas" name="expectativas" rows="4"></textarea>
+        </div>
+        <div class="pergunta">
+            <label for="email">Seu e-mail para contato:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <button type="submit">Enviar Questionário</button>
+    </form>
+</body>
+</html>
